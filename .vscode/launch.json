@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Physics Engine",
+            "file": "${workspaceRoot}/pe.html"
+            // "userDataDir": ""
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Physics Engine",
+            "port": 9222,
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}

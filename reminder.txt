@@ -1,0 +1,6 @@
+to use chrome debugger:
+1. kill all chrome processes with system moniter
+2. execute this command in terminal:
+    google-chrome --remote-debugging-port=9222
+ 2a. add " & disown" at the end to allow the terminal to close without closing the window
+3. run debugger  
