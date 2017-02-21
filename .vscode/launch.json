@@ -6,7 +6,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Physics Engine",
-            "file": "${workspaceRoot}/pe.html"
+            "file": "${workspaceRoot}/Physics_Engine.html"
             // "userDataDir": ""
         },
         {
